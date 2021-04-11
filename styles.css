@@ -1,0 +1,69 @@
+.input-box{
+  border-right: 2px solid #000000;
+}
+.hidden{
+  visibility: hidden;
+}
+.next-button{
+  margin-left: 100px;
+}
+
+body{
+  text-align: center;
+  padding: 30px;
+}
+.body-class{
+  background-color: #F5FCFF;
+}
+.number1, .operator, .number2, .equal-to-sign, .input-box{
+  font-size: 30px;
+  border-radius: 10%;
+  margin-bottom: 20px;
+}
+.submit-button{
+  margin-bottom: 20px;
+}
+.result, .description{
+  font-size: 25px;
+}
+
+/* CSS used here will be applied after bootstrap.css */
+.left {
+	display: none;
+}
+
+#indicators{
+  margin-bottom: -100px;
+}
+.quiz-heading{
+    font-size:54px;
+    margin-bottom: 30px;
+    color: #00ACE6;
+}
+.gif-image{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 0;
+}
+
+.celebration-text{
+  font-size: 60px;
+}
+
+.wrong-questions{
+  font-size: 40px;
+}
+
+@media (max-width: 768px) {
+
+.celebration-text{
+    font-size: 30px;
+}
+
+.wrong-questions{
+    font-size: 20px;
+}
+
+}
